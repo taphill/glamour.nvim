@@ -24,7 +24,6 @@ Color.new('bg3', '#665c54')
 Color.new('bg4', '#7c6f64')
 
 Color.new('fg0', '#fbf1c7')
--- Color.new('fg1', '#ffffff')
 Color.new('fg1', '#d8dee9')
 Color.new('fg2', '#d5c4a1')
 Color.new('fg3', '#bdae93')
@@ -38,6 +37,8 @@ Color.new('purple', '#c5a5c5')
 Color.new('aqua',   '#88c6Be')
 Color.new('orange', '#ff8b50')
 Color.new('gray',   '#6d6d6d')
+
+Color.new('highlight', '#586273')
 
 
 ---------------------
@@ -138,7 +139,7 @@ Group.new('TabLineFill', c.bg4, c.bg1, none)                                   -
 Group.new('TabLineSel', c.green, c.bg1, none)                                  -- Active tab page label
 Group.new('TabLine', g.TabLineFill, g.TabLineFill, g.TabLineFill)
 Group.new('Title', c.green, c.none, bold)            -- Titles for output from :set all, :autocmd, etc.
-Group.new('Visual', c.none, c.bg1, none)             -- Visual mode selection
+Group.new('Visual', c.none, c.highlight, none)             -- Visual mode selection
 Group.new('VisualNOS', g.Visual, g.Visual, g.Visual) -- Visual mode selection when vim is "Not Owning the Selection". Only X11 Gui's gui-x11 and xterm-clipboard supports this.
 Group.new('VertSplit', c.bg3, c.none, none)          -- The column separating vertically split windows
 Group.new('WarningMsg', c.red, c.none, bold)         -- Warning messages
