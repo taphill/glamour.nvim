@@ -1,10 +1,10 @@
 # glamour.nvim
 
-A colorscheme for Neovim, written in Lua, that mimics that colors used in the code snippets from the ReactJS docs.
+A colorscheme for neovim, written in Lua, based on the colors used in the code snippets from the React docs. The colors can be found [here](https://github.com/reactjs/reactjs.org/blob/main/src/prism-styles.js#L11).
 
 ## Requirements
 
-You need to be running Neovim 0.5.0+
+You need to be running neovim 0.5.0+
 
 To take full advantage of the JavaScript and JSX highlighting this colorscheme offers, you'll need to add the following plugins:
 
@@ -42,9 +42,3 @@ colorscheme glamour_nvim
 -- Lua:
 require('colorbuddy').colorscheme('glamour_nvim')
 ```
-
-## Features
-
-This is currently a work in progress.
-
-If you would like to add specific features I would suggest forking this project, or starting a discussion.
