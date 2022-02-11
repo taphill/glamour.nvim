@@ -324,6 +324,16 @@ Group.new('typescriptStatementKeyword', c.purple, c.none, none)
 Group.new('typescriptTestGlobal', c.blue, c.none, none)
 Group.new('typescriptVariable', c.purple, c.none, italic)
 
+-- Elm
+Group.new('elmAlias', c.red, c.none, none)
+Group.new('elmBraces', c.aqua, c.none, none)
+Group.new('elmCaseBlockDefinition', c.purple, c.none, none)
+Group.new('elmConditional', c.purple, c.none, none)
+Group.new('elmDelimiter', c.fg1, c.none, none)
+Group.new('elmFuncName', c.purple, c.none, none)
+Group.new('elmOperator', c.aqua, c.none, none)
+Group.new('elmTypedef', c.red, c.none, none)
+
 -- C
 Group.new('cOperator', c.purple, c.none, none)
 Group.new('cStructure', c.orange, c.none, none)
