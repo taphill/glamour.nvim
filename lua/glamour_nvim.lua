@@ -385,6 +385,11 @@ Group.new('rubyInterpolationDelimiter', c.aqua, c.none, none)
 Group.new('rubyMagicComment', c.fg1, c.none, none)
 Group.new('rubyStringDelimiter', c.green, c.none, none)
 
+-- HCL
+-- requires hashivim/vim-terraform
+Group.new('hclBlockType', c.red, c.none, none)
+Group.new('hclBraces', c.aqua, c.none, none)
+
 -- JSON
 Group.new('jsonKeyword', c.green, c.none, none)
 Group.new('jsonQuote', c.green, c.none, none)
