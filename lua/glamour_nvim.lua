@@ -327,11 +327,13 @@ Group.new('typescriptVariable', c.purple, c.none, italic)
 -- Elm
 Group.new('elmAlias', c.red, c.none, none)
 Group.new('elmBraces', c.aqua, c.none, none)
-Group.new('elmCaseBlockDefinition', c.blue, c.none, none)
-Group.new('elmConditional', c.blue, c.none, none)
+Group.new('elmCaseBlockDefinition', c.red, c.none, none)
+Group.new('elmConditional', c.red, c.none, none)
 Group.new('elmDelimiter', c.fg1, c.none, none)
 Group.new('elmFuncName', c.purple, c.none, none)
+Group.new('elmLetBlockDefinition', c.red, c.none, none)
 Group.new('elmOperator', c.aqua, c.none, none)
+Group.new('elmType', c.yellow, c.none, none)
 Group.new('elmTypedef', c.red, c.none, none)
 
 -- C
