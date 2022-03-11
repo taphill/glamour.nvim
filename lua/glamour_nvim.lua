@@ -380,6 +380,12 @@ Group.new('pythonConditional', c.red, c.none, none)
 Group.new('pythonRepeat', c.red, c.none, none)
 Group.new('pythonDottedName', c.green, c.none, bold)
 
+-- Django
+Group.new('djangoArgument', c.fg1, c.none, none)
+Group.new('djangoStatement', c.fg1, c.none, none)
+Group.new('djangoTagBlock', c.fg1, c.none, none)
+Group.new('djangoVarBlock', c.fg1, c.none, none)
+
 -- Ruby
 Group.new('rubyExceptionHandler', c.red, c.none, none)
 Group.new('rubyHelper', c.fg1, c.none, none)
