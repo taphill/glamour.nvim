@@ -145,8 +145,9 @@ Group.new('VertSplit', c.bg3, c.none, none)          -- The column separating ve
 Group.new('WarningMsg', c.red, c.none, bold)         -- Warning messages
 Group.new('WildMenu', c.yellow, c.bg2, bold)         -- Current match in wildmenu completion
 
-Group.new('DiagnosticUnderlineError', c.red, c.none, none)
-Group.new('DiagnosticUnderlineWarn', c.yellow, c.none, none)
+-- Diagnostics
+Group.new('DiagnosticUnderlineError', c.none, c.red, none)
+Group.new('DiagnosticUnderlineWarn', c.none, c.yellow, none)
 
 -- Diffs
 Group.new('DiffAdd', c.green, c.bg0, reverse)        -- Diff mode: Added line
