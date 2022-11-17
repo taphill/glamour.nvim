@@ -329,7 +329,7 @@ Group.new('typescriptParens', c.aqua, c.none, none)
 Group.new('typescriptStatementKeyword', c.purple, c.none, none)
 Group.new('typescriptTemplateSB', c.aqua, c.none, none)
 Group.new('typescriptTestGlobal', c.blue, c.none, none)
-Group.new('typescriptTry', c.blue, c.none, none)
+Group.new('typescriptTry', c.red, c.none, none)
 Group.new('typescriptVariable', c.purple, c.none, italic)
 
 -- Elm
