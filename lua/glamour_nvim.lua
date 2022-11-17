@@ -302,7 +302,6 @@ Group.new('jsxBraces', c.orange, c.none, none)
 Group.new('jsxComponentName', c.yellow, c.none, none)
 
 -- TypeScript
-Group.new('typescriptAliasKeyword', c.none, c.none, none)
 Group.new('typescriptAmbientDeclaration', c.aqua, c.none, none)
 Group.new('typescriptAsyncFuncKeyword', c.aqua, c.none, none)
 Group.new('typescriptArrowFunc', c.fg1, c.none, none)
