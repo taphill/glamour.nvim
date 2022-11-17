@@ -304,6 +304,7 @@ Group.new('jsxComponentName', c.yellow, c.none, none)
 -- TypeScript
 Group.new('typescriptBraces', c.aqua, c.none, none)
 Group.new('typescriptEndColons', c.aqua, c.none, none)
+Group.new('typescriptExceptions', c.red, c.none, none)
 Group.new('typescriptFuncKeyword', c.purple, c.none, italic)
 Group.new('typescriptGlobalObjects', c.yellow, c.none, none)
 Group.new('typescriptLabel', c.aqua, c.none, none)
