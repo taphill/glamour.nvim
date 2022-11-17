@@ -302,6 +302,16 @@ Group.new('jsxBraces', c.orange, c.none, none)
 Group.new('jsxComponentName', c.yellow, c.none, none)
 
 -- TypeScript
+Group.new('typescriptBraces', c.aqua, c.none, none)
+Group.new('typescriptEndColons', c.aqua, c.none, none)
+Group.new('typescriptExceptions', c.red, c.none, none)
+Group.new('typescriptFuncKeyword', c.purple, c.none, italic)
+Group.new('typescriptGlobalObjects', c.yellow, c.none, none)
+Group.new('typescriptLabel', c.aqua, c.none, none)
+Group.new('typescriptParens', c.aqua, c.none, none)
+Group.new('typescriptReserved', c.aqua, c.none, none)
+Group.new('typescriptStatement', c.red, c.none, italic)
+Group.new('typescriptStorageClass', c.purple, c.none, italic)
 -- old
 -- Group.new('typescriptAmbientDeclaration', c.aqua, c.none, none)
 -- Group.new('typescriptAsyncFuncKeyword', c.aqua, c.none, none)
