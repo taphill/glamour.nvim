@@ -342,7 +342,7 @@ Group.new('typescriptTry', c.red, c.none, none)
 Group.new('typescriptTypeBracket', c.aqua, c.none, none)
 Group.new('typescriptTypeBrackets', c.aqua, c.none, none)
 Group.new('typescriptTypeParameter', c.yellow, c.none, none)
-Group.new('typescriptTypeReference', c.yellow, c.none, none)
+Group.new('typescriptTypeReference', c.fg2, c.none, none)
 Group.new('typescriptUnion', c.fg1, c.none, none)
 Group.new('typescriptVariable', c.purple, c.none, italic)
 
