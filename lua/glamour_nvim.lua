@@ -37,6 +37,7 @@ Color.new('purple', '#c5a5c5')
 Color.new('aqua',   '#88c6Be')
 Color.new('orange', '#ff8b50')
 Color.new('gray',   '#6d6d6d')
+Color.new('black',  '#000000')
 
 Color.new('highlight', '#586273')
 
@@ -156,7 +157,7 @@ Group.new('DiffDelete', c.red, c.bg0, reverse)       -- Diff mode: Deleted line
 Group.new('DiffText', c.yellow, c.bg0, reverse)      -- Diff mode: Changed text within a changed line
 
 -- Completion Menu
-Group.new('Pmenu', c.fg1, c.bg1, none)               -- Popup menu: normal item
+Group.new('Pmenu', c.fg1, c.black, none)             -- Popup menu: normal item
 Group.new('PmenuSel', c.bg2, c.yellow, bold)         -- Popup menu: selected item
 Group.new('PmenuSbar', c.none, c.bg2, none)          -- Popup menu: scrollbar
 Group.new('PmenuThumb', c.none, c.bg4, none)         -- Popup menu: scrollbar thumb
