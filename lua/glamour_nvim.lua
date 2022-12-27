@@ -10,31 +10,31 @@ local reverse = s.reverse
 local none = s.NONE
 local v = vim.g
 
-v.colors_name = 'midnight_nvim'
+v.colors_name = 'glamour_nvim'
 
 
 -------------------
 -- Color Palette --
 -------------------
 
-Color.new('bg0', '#16181d')
+Color.new('bg0', '#282c34')
 Color.new('bg1', '#353b45')
 Color.new('bg2', '#504945')
 Color.new('bg3', '#665c54')
 Color.new('bg4', '#7c6f64')
 
 Color.new('fg0', '#fbf1c7')
-Color.new('fg1', '#ffffff')
+Color.new('fg1', '#d8dee9')
 Color.new('fg2', '#d5c4a1')
 Color.new('fg3', '#bdae93')
 Color.new('fg4', '#a89984')
 
-Color.new('red',    '#c64640')
+Color.new('red',    '#fc929e')
 Color.new('green',  '#8dc891')
-Color.new('yellow', '#dfab5c')
-Color.new('blue',   '#77b7d7')
-Color.new('purple', '#977cdc')
-Color.new('aqua',   '#86d9ca')
+Color.new('yellow', '#fac863')
+Color.new('blue',   '#6699cc')
+Color.new('purple', '#c5a5c5')
+Color.new('aqua',   '#88c6Be')
 Color.new('orange', '#ff8b50')
 Color.new('gray',   '#6d6d6d')
 Color.new('black',  '#000000')
@@ -78,25 +78,25 @@ v.terminal_color_15 = '#ffffff'  -- white bright
 Group.new('Boolean', c.orange, c.none, none)         -- Boolean constant: TRUE, false
 Group.new('Character', c.purple, c.none, none)       -- Character constant: 'c', '/n'
 Group.new('Conditional', c.purple, c.none, none)     -- An if, then, else, endif, switch, etc.
-Group.new('Constant', c.blue, c.none, none)        -- Generic constant
+Group.new('Constant', c.purple, c.none, none)        -- Generic constant
 Group.new('Debug', c.red, c.none, none)              -- Debugging statements
 Group.new('Define', c.aqua, c.none, none)            -- Preprocessor #define
 Group.new('Exception', c.red, c.none, none)          -- A try, catch, throw, etc.
-Group.new('Float', c.red, c.none, none)             -- Floating point constant: 2.3e10
+Group.new('Float', c.blue, c.none, none)             -- Floating point constant: 2.3e10
 Group.new('Function', c.yellow, c.none, none)        -- Function/Method name
 Group.new('Include', c.aqua, c.none, none)           -- Preprocessor #include
 Group.new('Identifier', c.purple, c.none, none)      -- Variable name
 Group.new('Keyword', c.purple, c.none, none)         -- Any other keyword
 Group.new('Label', c.purple, c.none, none)           -- A case, default, etc.
 Group.new('Macro', c.aqua, c.none, none)             -- Same as Define
-Group.new('Number', c.red, c.none, none)            -- Number constant: 234, 0xff
+Group.new('Number', c.blue, c.none, none)            -- Number constant: 234, 0xff
 Group.new('Operator', c.fg1, c.none, none)           -- sizeof", "+", "*", etc.
 Group.new('PreCondit', c.aqua, c.none, none)         -- Preprocessor #if, #else, #endif, etc.
 Group.new('PreProc', c.aqua, c.none, none)           -- Generic Preprocessor
 Group.new('Repeat', c.red, c.none, none)             -- A for, do, while, etc.
 Group.new('Statement', c.red, c.none, none)          -- Generic statement
 Group.new('StorageClass', c.orange, c.none, none)    -- A static, register, volatile, etc.
-Group.new('String', c.purple, c.none, none)           -- String constant
+Group.new('String', c.green, c.none, none)           -- String constant
 Group.new('Structure', c.aqua, c.none, none)         -- A struct, union, enum, etc.
 Group.new('Type', c.yellow, c.none, none)            -- Generic type: int, long, char, etc.
 Group.new('Typedef', c.yellow, c.none, none)         -- A typedef
